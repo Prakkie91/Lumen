@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?xjd6vp');
+	src:url('fonts/icomoon.eot?#iefixxjd6vp') format('embedded-opentype'),
+		url('fonts/icomoon.woff?xjd6vp') format('woff'),
+		url('fonts/icomoon.ttf?xjd6vp') format('truetype'),
+		url('fonts/icomoon.svg?xjd6vp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lumen_twitter_outline:before {
+	content: "\e60c";
+}
+
+.icon-lumen_instagram_outline:before {
+	content: "\e60d";
+}
+
+.icon-lumen_facebook_outline:before {
+	content: "\e60e";
+}
+
+.icon-lumen_facebook:before {
+	content: "\e609";
+}
+
+.icon-lumen_twitter:before {
+	content: "\e60a";
+}
+
+.icon-lumen_instagram:before {
+	content: "\e60b";
+}
+
+.icon-lumen_up:before {
+	content: "\e607";
+}
+
+.icon-lumen_down:before {
+	content: "\e608";
+}
+
+.icon-lumen_cog:before {
+	content: "\e606";
+}
+
+.icon-lumen_home:before {
+	content: "\e600";
+}
+
+.icon-lumen_wallet:before {
+	content: "\e601";
+}
+
+.icon-lumen_community:before {
+	content: "\e602";
+}
+
+.icon-lumen_magnet:before {
+	content: "\e603";
+}
+
+.icon-lumen_lights:before {
+	content: "\e604";
+}
+
+.icon-lumen_cart:before {
+	content: "\e605";
+}
+

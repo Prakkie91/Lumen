@@ -1,0 +1,1005 @@
+body{
+	margin:52px 0 60px 0;
+	color: #000;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+	body.lumenHome{
+		margin: 15px 0 60px 0;
+		background: url(../images/background_home.jpg) no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	body.lumenLevelTwo{
+		margin:140px 0 60px 0;
+	}
+
+	body.lumenBodyHasTwoHeaders{
+		margin: 180px 0 60px 0;
+	}
+
+	body.lumenLevelFive{
+		margin: 130px 0 60px 0;
+	}
+		body.lumenLevelFive.lumenBodyHasTwoHeaders{
+			margin: 180px 0 0 0;
+		}
+	body.lumenLevelFour{
+		margin: 180px 0 60px 0;
+	}
+		body.lumenLevelFour.lumenBodyHasTwoHeaders{
+			margin: 200px 0 60px 0;
+		}
+
+[data-align="vertical"]{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+	/* Home Page Styles */
+
+		.lumenHomeLoginForm{
+			float: right;
+			clear: none;
+			margin: 0;
+			padding:8px 0 0 0;
+		}
+		.lumenHomeLoginForm input{
+			display: inline-block;
+			float: left;
+			clear: none;
+			margin:0 0 0 5px;
+			border: none;
+			padding: 5px 15px;
+			height: auto;
+			border-radius: 10px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			-o-border-radius: 10px;
+			-ms-border-radius: 10px;
+			background: #fff;
+			background: rgba(255, 255, 255, .25);
+			color: #fff;
+			text-align: left;
+			font-size: .9em;
+			font-family: 'montserrathairline', Helvetica, Arial, Sans-serif;
+		}
+	/* End Home Page Styles */
+
+	.lumenIndicator{
+		font-size: 2.4em;
+		font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+	}
+
+		.lumenIndicator.paddTop{
+			padding-top: 15px;
+		}
+
+		.lumenIndicator.lumenIndicatorUp{
+			color: #00CC00;
+		}
+
+		.lumenIndicator.lumenIndicatorDown{
+			color: #FF3800;
+		}
+
+		.lumenIndicator .lumenIcon{
+			font-size: 1.2em;
+			display: block;
+			padding-top:5px; 
+			clear: none;
+			float: left;
+		}
+
+		.lumenIndicator .lumenFigure{
+			display: block;
+			clear: none;
+			float: left;
+		}
+
+	.lumenPrice{
+		font-family: 'montserrathairline', Helvetica, Arial, Sans-serif;
+		color: #ccc;
+	}
+
+		.lumenPrice h1, .lumenPrice h2, .lumenPrice h3, .lumenPrice h4{
+			margin: 0;
+			padding: 0;
+		}
+
+		.lumenPrice h2{
+			font-size: 4em;
+		}
+
+		.lumenPrice h4{
+			font-size: 1.6em;
+			padding-left: 4px;
+		}
+
+	.lumenGraphInline.paddTop{
+		padding-top:30px;
+	}
+
+
+	.lumenMuted{
+		color: #bbb;
+	}
+
+	.navbar{
+		background: #fff;
+		border: none;
+	}
+
+		body.lumenHome .navbar{
+			background: none;
+		}
+
+	a.lumenBtn{
+		font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+		font-size: .8em;
+		color: #000;
+		display: inline-block;
+		text-decoration: none;
+		min-width: 110px;
+		padding: 5px 15px;
+		border-radius: 15px;
+		background: #eee;
+		border: 1px solid #eee;
+		text-align: center;
+		transition: all .25s ease-in-out;
+	}
+
+		a.lumenBtn:hover{
+			background: #ccc;
+		}
+
+
+	.lumenHeaderWrapper{
+		margin: 0;
+		padding: 0;
+	}
+
+	.lumenHeader{
+		overflow: hidden;
+		margin: 0;
+		padding: 15px 0;
+		border-bottom: 1px solid #ccc;
+	}
+
+		.lumenHeader .logo, .lumenHeader .brand{
+			font-family: 'montserratbold', Helvetica, Arial, Sans-serif;
+			color: #000;
+			margin: 0;
+			font-size: 1.5em;
+			float: right;
+		}
+
+		.lumenHeader .brand{
+			float: left;
+		}
+
+	.lumenSubPanelWrapper{
+		z-index: 999;
+		overflow: hidden;
+		clear: both;
+		background: #fff !important;
+	}
+
+		.lumenSubPanelWrapper.lumenFilterContainer, .lumenSubPanelWrapper.lumenFilterContainer .lumenSubPanel{
+			overflow:visible;
+			height:100px;
+		}
+
+		body.lumenHome .lumenSubPanelWrapper{
+			background: none !important;
+		}
+
+		.lumenLevelTwo .lumenSubPanelWrapper{
+			border: none;
+		}
+
+		.lumenSubPanelWrapper .icon{
+			display: block;
+			float: left;
+			clear: none;
+			margin: 5px 10px 0 0;
+		}
+
+		.lumenSubPanelWrapper h2{
+			display: block;
+			float: left;
+			clear: none;
+			margin: 7px 0 0 0;
+			font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+			font-weight: normal;
+			text-transform: uppercase;
+			color: #3C3C3B;
+			font-size: 1.65em;
+		}
+
+		.lumenSubPanel{
+			overflow: hidden;
+			clear: both;
+			padding: 8px 0;
+			border-bottom: 1px solid #ccc;
+		}
+
+			body.lumenHome .lumenSubPanel{
+				padding: 0;
+			}
+
+			.lumenSecondaryNavigation .lumenSubPanel{
+				border-top: 1px solid #ccc;
+				overflow: hidden;
+				clear: both;
+				padding: 0;
+
+			}
+
+				.lumenNavContainer .lumenNavigationTab{
+					float: left;
+					clear: none;
+					text-align: center;
+					border-collapse: collapse;
+					border-right: 1px solid #ccc;
+				}
+
+				.lumenNavContainer.lumenEight.lumenNavigationTab{
+					width: 12.5%;
+				}
+
+				.lumenNavContainer.lumenSeven.lumenNavigationTab{
+					width: 14.285%;
+				}
+
+				.lumenNavContainer.lumenSix.lumenNavigationTab{
+					width: 16.666%;
+				}
+
+				.lumenNavContainer.lumenFive .lumenNavigationTab{
+					width: 20%;
+				}
+
+				.lumenNavContainer.lumenFour .lumenNavigationTab{
+					width: 25%;
+				}
+
+				.lumenNavContainer.lumenTwo .lumenNavigationTab{
+					width: 50%;
+				}
+
+				.lumenNavContainer.lumenOne .lumenNavigationTab{
+					width: 100%;
+				}
+
+				.lumenSecondaryNavigation .lumenSubPanel .lumenNavigationTab:first-child{
+					border-left: 1px solid #ccc;
+				}
+
+					.lumenSubPanel .lumenNavigationTab a{
+						display: block;
+						padding: 10px 0;
+						font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+						color: #666;
+						text-decoration: none;
+						background: #F6F6F6;
+						transition: background .25s ease-in-out;
+					}
+
+						.lumenSecondaryNavigation .lumenSubPanel .lumenNavigationTab a:hover{
+							background: #eee;
+							font-family: 'montserratregular';
+						}
+
+			.lumenSubPanel .icon{
+				font-size: 2.7em;
+			}
+
+			.lumenSubPanel .lumenMuted{
+				display: inline-block;
+				margin: 5px 0 0 0;
+				font-size: 1.4em;
+				font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+			}
+
+			.lumenSubPanel .lumenBtn{
+				display: inline-block;
+				margin: 5px 0 0 0;
+				float: right;
+			}
+
+.lumenPageTitleBar .lumenIndicator{
+	display: block;
+	text-align: right;
+	font-size: 1.25em;
+	padding: 5px 0 0 0;
+	color: #aaa;
+	font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+}
+
+	.lumenPageTitleBar .lumenIndicator span{
+		display: block;
+		float: right;
+		clear: none;
+		font-size: 1.35em;
+		margin: 0;
+	}
+
+	.lumenPageTitleBar .lumenIndicator i{
+		display: block;
+		float: right;
+		clear: none;
+		font-size: 1.45em;
+		margin: 0;
+		padding-top:4px;
+	}
+
+	.lumenPageTitleBar .lumenIndicator .lumenFigures{
+		display: block;
+		float: right;
+		clear: none;
+		margin: 0 0 0 10px;
+		font-size: 1.35em;
+		font-family: 'montserrathairline', Helvetica, Arial, Sans-serif;
+	}
+
+	.lumenPageTitleBar .lumenIndicator .lumenUp, .lumenPageTitleBar .lumenIndicator .icon-lumen_up{
+		color: #33FF00;
+	}
+
+	.lumenPageTitleBar .lumenIndicator .lumenDown, .lumenPageTitleBar .lumenIndicator .icon-lumen_down{
+		color: #FF3800;
+	}
+
+	.lumenMainWrapper{
+		overflow: hidden;
+		clear: both;
+	}
+
+	.lumenRepeat{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+		.lumenRepeat li{
+			position: relative;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+			.lumenRepeat.lumenHorizontalChunks li{
+				border-top: 1px solid #ccc;
+				padding: 25px 0;
+			}
+
+			.lumenRepeat li > .row{
+				border-top: 1px solid #ccc;
+			}
+
+				.lumenRepeat.lumenHorizontalChunks li > .row{
+					border-top: none;
+				}
+
+				.lumenRepeat.lumenHorizontalChunks li:first-child{
+					border-top: none;
+				}
+
+			.lumenRepeat li:first-child .row{
+				border-top: none;
+			}
+
+			.lumenRepeat li .lumenCol{
+				padding: 0;
+			}
+
+			.lumenRepeat li .lumenTab{
+				overflow: hidden;
+				clear: both;
+				background: #f9f9f9;
+				text-align: center;
+				text-transform: uppercase;
+				font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+				font-size: .9em;
+				min-height: 100px;
+				display: table-cell;
+				vertical-align: middle;
+				width: 178px;
+				height: 150px;
+			}
+
+				.lumenRepeat li .lumenTab .icon{
+					font-size: 4em;
+				}
+
+			.lumenRepeat li .lumenBody{
+				overflow: hidden;
+				position: relative;
+				width: 100%;
+			}
+
+			.lumenRepeat li .lumenButtons.paddTop{
+				padding-top: 10px;
+			}
+
+			.lumenRepeat li .lumenButtons .lumenBtn{
+				margin: 0 0 8px 0;
+				float: right;
+				clear: both;
+			}
+
+	.footer{
+		width: 100%;
+		overflow: hidden;
+		background: #fff;
+		font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+	}
+
+		.lumenHome .footer{
+			background: none;
+			color: #fff;
+			color: rgba(255, 255, 255, .85);
+			font-size: .8em;
+			padding-bottom: 20px;
+		}
+
+		.footer.lumenSticky{
+			position: fixed;
+			bottom: 0;
+		}
+
+		.footer .lumenFooterNavWrapper{
+			overflow: hidden;
+			border-top:1px solid #ccc;
+		}
+
+				.footer .lumenFooterNavWrapper .lumenNavigationTab{
+					width: 20%;
+					float: left;
+					clear: none;
+					text-align: center;
+					border-collapse: collapse;
+					border-right: 1px solid #ccc;
+				}
+
+				.footer .lumenFooterNavWrapper.lumenSix .lumenNavigationTab{
+					width: 16.66666666666667%;
+				}
+
+				.footer .lumenFooterNavWrapper .lumenNavigationTab:first-child{
+					border-left: 1px solid #ccc;
+				}
+
+					.footer .lumenFooterNavWrapper .lumenNavigationTab .lumenIcon{
+						font-size: 2em;
+					}
+
+					.footer .lumenFooterNavWrapper .lumenNavigationTab a{
+						display: block;
+						padding: 5px 0;
+						font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+						color: #000;
+						background: #F6F6F6;
+						text-decoration: none;
+						font-size: .9em;
+						transition: background .25s ease-in-out;
+					}
+
+						.footer .lumenFooterNavWrapper .lumenNavigationTab a:hover, .footer .lumenFooterNavWrapper .lumenNavigationTab a:active, .footer .lumenFooterNavWrapper .lumenNavigationTab.lumenActive a{
+							background: #eee;
+						}
+
+	.footer .text-muted {
+	    margin: 20px 0px;
+	}
+
+
+/* LUMEN SPLIT COMPARE */
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare{
+		font-family: 'montserratregular', Helvetica, Arial, Sans-serif;
+	}
+	
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare header{
+		margin: 0 0 15px 0;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare h2{
+		margin: 0 0 10px 0;
+		font-size: 1.75em;
+		font-weight: normal;
+	}
+
+		.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare li{
+			border: none;
+		}
+
+		.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare .lumenLeft{
+			text-align: right;
+		}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare h4{
+		font-family: 'montserrathairline', Helvetica, Arial, Sans-serif;
+		font-size: 1.1em;
+		color: #aaa;
+		margin: 0;
+		font-weight: normal;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare .lumenFigure{
+		font-size: 2em;
+		font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+		overflow: hidden;
+		padding: 5px 0;
+		border-bottom: 1px solid #c6c6c6;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare  .lumenMiddle{
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare .lumenMiddle .icon{
+		font-size: 2.5em;
+		color: #aaa;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare .lumenStats{
+		margin: 15px 0;
+		font-size: .45em;
+		color: #aaa;
+	}
+
+/* END LUMEN SPLIT COMPARE */
+
+	
+/* BULLET GRAPHS */
+
+.lumenBulletGraphContainer{
+	z-index: 1;
+	overflow: hidden;
+	clear: both;
+	padding: 10px 0;
+}
+
+	.lumenBulletGraphContainer .lumenBulletGraphWrapper{
+		position: relative;
+		z-index: 1;
+		height: 80px;
+		width: 100%;
+	}
+
+		.lumenBulletGraphContainer .lumenLabel{
+			position: absolute;
+			top: 40px;
+			font-family: 'montserrathairline', Helvetica, Arial, Sans-serif;
+			font-size: .85em;
+			color: #aaa;
+		}
+
+		.lumenBulletGraphContainer .lumenIndicator{
+			position: absolute;
+			top: 50px;
+			width: 100%;
+			text-align: center;
+			color: #aaa;
+			font-size: 1.5em;
+			font-family: 'montserrathairline', Helvetica, Arial, Sans-serif;
+		}
+
+			.lumenBulletGraphContainer .lumenIndicator i{
+				font-size: .9em;
+			}
+
+			.lumenBulletGraphContainer .lumenIndicator [data-state="up"]{
+				color: #33FF00;
+			}
+
+			.lumenBulletGraphContainer .lumenIndicator [data-state="down"]{
+				color: #FF3800;
+			}
+
+		.lumenBulletGraphContainer .lumenBulletGraphWrapper [data-behaviour="bullet-base"]{
+			position: absolute;
+			z-index: 2;
+			background: #C6C6C6;
+			width: 100%;
+			height: 20px;
+			top:15px;
+			left: 0;
+		}
+
+		.lumenBulletGraphContainer .lumenBulletGraphWrapper [data-behaviour="bullet-overlay"]{
+			transition: all .5s ease-in-out;
+			position: absolute;
+			width: 50%;
+			height: 20px;
+			background: red;
+			z-index: 3;
+			top: 15px;
+			left: 0;
+		}
+
+			.lumenBulletGraphContainer .lumenBulletGraphWrapper [data-behaviour="bullet-overlay"][data-state="up"]{
+				background: #33FF00;
+			}
+
+			.lumenBulletGraphContainer .lumenBulletGraphWrapper [data-behaviour="bullet-overlay"][data-state="down"]{
+				background: #FF3800;
+			}
+
+		.lumenBulletGraphContainer .lumenBulletGraphWrapper [data-behaviour="bullet-marker"]{
+			transition: all .5s ease-in-out;
+			position: absolute;
+			width: 40%;
+			height: 40px;
+			background: none;
+			z-index: 4;
+			top: 5px;
+			left: 0;
+			border-right: 2px solid #C6C6C6;
+		}
+
+/* BULLET GRAPHS */
+
+/* TOP FILTER BAR (LEVEL 5) */
+.lumenFilterBar h3{
+	font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+	font-size: 1.45em;
+	margin: 15px 0 5px 0;
+}
+.lumenFilterBar h4{
+	font-family: 'montserrathairline', Helvetica, Arial, Sans-serif;
+	font-size: 1.25em;
+	margin: 0;
+}
+/* END TOP FILTER BAR (LEVEL 5) */
+
+/* TABLES */
+
+	.lumenTable{
+		font-size: .85em;
+		font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+	}
+		.lumenTable thead{
+			background: #f9f9f9;
+			color: #c6c6c6;
+			border-top: 1px solid #ddd;
+			text-transform: uppercase;
+		}
+		.lumenTable tr:nth-child(2n){
+			background: #f9f9f9;
+		}
+		.lumenTable td{
+			vertical-align: middle !important;
+		}
+		.lumenTable .lumenIcon{
+			font-size: 2em;
+		}
+		.lumenTable a{
+			color: #000;
+			text-decoration: none;
+		}
+		.lumenTable img{
+			width: 200px;
+		}
+
+/* END TABLES */
+
+/* UTILITY CLASSES */
+
+.lumenNoTopBorder{
+	border-top:none !important;
+}
+
+.lumenNoBottomBorder{
+	border-bottom:none !important;
+}
+
+.lumenNoLeftBorder{
+	border-left:none !important;
+}
+
+.lumenNoRightBorder{
+	border-right:none !important;
+}
+
+.lumenNoBorder{
+	border:none !important;
+}
+
+.lumenTextRight{
+	text-align: right !important;
+}
+
+.lumenSubPanel.lumenPadded{
+	padding:5px 0;
+}
+
+.lumenHidden{
+	display: none;
+}
+
+a.lumenBtnSquare{
+	display: inline-block;
+	padding:7px 10px !important;
+	border: 1px solid #ddd;
+	background: #fefefe;
+	text-align: center;
+	width: 50px;
+	font-size: .9em;
+	font-family: 'montserratregular', Helvetica, Arial, Sans-serif;
+}
+
+[data-behaviour="statistic"][data-state="up"]{
+	color: #33FF00;
+}
+[data-behaviour="statistic"][data-state="down"]{
+	color: #FF3800;
+}
+
+.lumenLeft, .lumenRight{
+	display: block;
+	clear: none;
+}
+
+.lumenLeft{
+	float: left;
+}
+
+.lumenRight{
+	float: right;
+}
+
+.lumenLoadMessage{
+	margin:5px 0 0 0;
+	font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+	color: #000;
+	font-size: 1em;
+}
+
+/* END UTILITY CLASSES */
+
+/* THIRD PARTY */
+.selectricWrapper{
+	margin-top:20px;
+	font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+	color: #000;
+}
+.selectric{
+	border: 1px solid #ccc;
+}
+.selectric p.label{
+	color: #000;
+	font-size: .8em;
+	line-height: 1.5em;
+	padding:8px;
+	height: auto;
+}
+.selectricItems{
+	z-index: 999 !important;
+}
+/* END THIRD PARTY */
+
+.lumenHeaderWrapper .lumenHomeLoginForm input{
+	min-width:250px;
+}
+
+
+@media screen and (max-width: 1200px){
+
+	.lumenIndicator{
+		font-size: 2.3em;
+	}
+
+		.lumenIndicator .lumenIcon{
+			font-size: 1.1em;
+			display: block;
+			padding-top:5px; 
+			clear: none;
+			float: left;
+		}
+
+	.lumenRepeat li .lumenTab{
+		width: 178px;
+	}
+
+	.lumenRepeat li .lumenButtons .lumenBtn{
+		margin: 0 0 8px 0;
+		float: right;
+		clear: both;
+	}
+
+	.lumenPrice h2{
+		font-size: 3em;
+	}
+
+	.lumenPrice h4{
+		font-size: 1.2em;
+		padding-left: 4px;
+	}
+
+}
+
+@media screen and (max-width: 991px){
+
+	.lumenRepeat li .lumenTab{
+		height: 270px;
+	}
+	
+
+	.lumenPrice h2{
+		font-size: 2.5em;
+	}
+
+	.lumenPrice h4{
+		font-size: 1.1em;
+		padding-left: 4px;
+	}
+
+	.lumenTable img{
+		width: 125px;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+
+	a.lumenBtn{
+		font-size: .7em;
+		min-width: 80px;
+		padding: 5px 8px;
+	}
+
+	.lumenRepeat li .lumenTab{
+		//height: 298px;
+	}
+
+	.lumenRepeat li .lumenButtons{
+		display: block;
+		position: relative;
+		overflow: hidden;
+		clear: both;
+		text-align: center;
+	}
+
+	.lumenRepeat li .lumenButtons a.lumenBtn{
+		display: block;
+		margin: 0 8px 0 0;
+		float: left;
+		clear: none;
+	}
+
+	.footer .lumenFooterNavWrapper .lumenNavigationTab a{
+		font-size: .55em;
+	}
+
+	.lumenSubPanelWrapper .lumenPageTitleBar h2{
+		font-size: 1em;
+		padding-top:5px;
+	}
+
+		.lumenSubPanelWrapper .lumenPageTitleBar .icon{
+			display: inline-block;
+			font-size: 1.65em;
+			padding-top:7px;
+		}
+
+	.lumenPageTitleBar .lumenIndicator{
+		font-size: .8em;
+		padding-top:10px;
+	}
+
+	.lumenPageTitleBar .lumenIndicator span{
+		font-size: 1.35em;
+	}
+
+	.lumenPageTitleBar .lumenIndicator i{
+		display: block !important;
+		font-size: 1.4em !important;
+		padding-top:3px !important;
+	}
+
+	.lumenPageTitleBar .lumenIndicator .lumenFigures{
+		display: block;
+		float: right;
+		clear: none;
+		margin: 0 0 0 10px;
+		font-size: 1.35em;
+		font-family: 'montserrathairline', Helvetica, Arial, Sans-serif;
+	}
+
+	.lumenPadMobile{
+		padding: 0 15px !important; 
+	}
+
+	.lumenSubPanelWrapper.lumenFilterContainer, .lumenSubPanelWrapper.lumenFilterContainer .lumenSubPanel{
+		overflow:visible;
+		height:150px;
+	}
+
+	.selectric{
+		width: 100%;
+	}
+
+	.lumenTable img{
+		width: 100px;
+	}
+
+	.lumenTable .lumenIcon{
+		font-size: 1.5em;
+	}
+
+	/* LUMEN SPLIT COMPARE */
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare h2{
+		margin: 0 0 10px 0;
+		font-size: 1.35em;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare h4{
+		font-family: 'montserratlight', Helvetica, Arial, Sans-serif;
+		font-size: .8em;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare .lumenFigure{
+		font-size: 1.5em;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare .lumenMiddle .icon{
+		font-size: 1.75em;
+	}
+
+	.lumenRepeat.lumenHorizontalChunks.lumenSplitCompare .lumenStats{
+		margin: 15px 0;
+		font-size: .4em;
+	}
+
+	/* END LUMEN SPLIT COMPARE */
+
+	/* HOME FORM */
+
+	.lumenRight.lumenHomeLoginForm{
+		float: left;
+		clear: none;
+		font-size: .85em;
+	}
+	.lumenHome .lumenSubPanel input form{
+		float: left;
+		clear: none;
+	}
+	.lumenHome .lumenSubPanel input, .lumenHeaderWrapper .lumenHomeLoginForm input{
+		display: block;
+		width: 30%;
+		float: left;
+		clear: none;
+		font-family: 'montserratregular', Helvetica, Arial, Sans-serif;
+	}
+	.lumenHome .lumenHeaderWrapper .lumenHomeLoginForm input{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.lumenHome img.lumenHomeLogo{
+		width: 250px !important;
+	}
+	/* END HOME FORM */
+
+	/* UTILITY CLASSES */
+	body.lumenBodyHasTwoHeaders{
+		margin: 280px 0 60px 0;
+	}
+	.lumenHeader .logo, .lumenHeader .brand{
+		font-size: 1.25em;
+	}
+	/* END UTILITY CLASSES */
+
+}
